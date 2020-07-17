@@ -1,0 +1,5 @@
+//suppose the name of credential json file that has been provided is coolage-testing.json and college name is NITS
+//Then commmand to add the data using coolage-testing.json as example is
+
+python insert.py --collegename NITS --jsoncred coolage-testing.json
+   

@@ -1,0 +1,463 @@
+{
+  "Mess Menu": {
+                    "Hostel 1" : {
+                                          "Monday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+
+                                          "Tuesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Wednesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Thursday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Friday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+                                          "Saturday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Sunday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    }
+                                  },
+                    "Hostel 2" : {
+                                          "Monday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+
+                                          "Tuesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Wednesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Thursday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Friday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+                                          "Saturday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Sunday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    }
+                                  },
+
+
+                    "Hostel 3" : {
+                                          "Monday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+
+                                          "Tuesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Wednesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Thursday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Friday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+                                          "Saturday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Sunday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    }
+                                  },
+
+                    "Hostel 4" : {
+                                          "Monday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+
+                                          "Tuesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Wednesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Thursday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Friday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+                                          "Saturday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Sunday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    }
+                                  },
+
+                    "Hostel 5" : {
+                                          "Monday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+
+                                          "Tuesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Wednesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Thursday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Friday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+                                          "Saturday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Sunday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    }
+                                  },
+
+                    "Hostel 6" : {
+                                          "Monday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+
+                                          "Tuesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Wednesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Thursday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Friday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+                                          "Saturday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Sunday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    }
+                                  },
+
+                    "Hostel 7" : {
+                                          "Monday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+
+                                          "Tuesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Wednesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Thursday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Friday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+                                          "Saturday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Sunday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    }
+                                  },
+                    "Hostel 8" : {
+                                          "Monday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+
+                                          "Tuesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Wednesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Thursday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Friday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+                                          "Saturday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Sunday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    }
+                                  },
+
+                    "Hostel 9" : {
+                                          "Monday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+
+                                          "Tuesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Wednesday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Thursday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Friday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+                                          "Saturday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    },
+
+                                          "Sunday": {
+                                                          "Breakfast": "Breakfast",
+                                                            "Lunch"  : "Lunch",
+                                                          "Snacks"   : "Snacks",
+                                                            "Dinner" : "Dinner"
+                                                    }
+                                  }
+           }
+
+
+  }
