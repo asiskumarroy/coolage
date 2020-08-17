@@ -34,27 +34,40 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   
   function menuteller(agent) {
     
+    var d = new Date();
+	var days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+    var din;
+    console.log(agent.parameters);
+    
+    if(agent.parameters.day.length===0)
+    {
+      din=days[d.getDay()];
+      console.log(din);
+    }
+    else{
+      
+      din = agent.parameters.day.toLowerCase();
+      console.log(din);
+    }
+    
     agent.add('hola');
-    const hostel = agent.parameters.hostel;
-    const din = agent.parameters.day.toLowerCase();
+    
+    //const hostel = agent.parameters.hostel;
+    //const din = agent.parameters.day.toLowerCase();
     const menu = agent.parameters.menu.toLowerCase();
-    //agent.add(typeof agent.parameters.day);
+    
     console.log(agent.parameters);
     const cityRef = db.collection('College').doc('NITJ');
     return cityRef.get().then(function(doc){
       if(doc.exists){
         
-        console.log(din,menu,hostel);
+        console.log(din,menu);
         //agent.add("inside doc");
         const full = doc.data();
-        //const hostel = agent.parameters.hostel.toString();
-        //const foodtime = agent.parameters.menu.toLowerCase();
-        //const dayval = agent.paramters;
-        //const value=menu.hostel.dayval.foodtime;
-        //console.log(dayval);
-        console.log(full[ 'Mess Menu' ][hostel][ din ][ menu ]);
         
-        return agent.add(full[ 'Mess Menu' ][hostel][ din ][ menu ]);
+        console.log(full[ 'Mess Menu' ][ 'Hostel 1' ][ din ][ menu ]);
+        
+        return agent.add(full[ 'Mess Menu' ][ 'Hostel 1' ][ din ][ menu ]);
       }
       else{
         console.log("No such document");
@@ -65,41 +78,41 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     });
 	    
   }
-
-  // // Uncomment and edit to make your own intent handler
-  // // uncomment `intentMap.set('your intent name here', yourFunctionHandler);`
-  // // below to get this function to be run when a Dialogflow intent is matched
-  // function yourFunctionHandler(agent) {
-  //   agent.add(`This message is from Dialogflow's Cloud Functions for Firebase editor!`);
-  //   agent.add(new Card({
-  //       title: `Title: this is a card title`,
-  //       imageUrl: 'https://developers.google.com/actions/images/badges/XPM_BADGING_GoogleAssistant_VER.png',
-  //       text: `This is the body text of a card.  You can even use line\n  breaks and emoji! 💁`,
-  //       buttonText: 'This is a button',
-  //       buttonUrl: 'https://assistant.google.com/'
-  //     })
-  //   );
-  //   agent.add(new Suggestion(`Quick Reply`));
-  //   agent.add(new Suggestion(`Suggestion`));
-  //   agent.setContext({ name: 'weather', lifespan: 2, parameters: { city: 'Rome' }});
-  // }
-
-  // // Uncomment and edit to make your own Google Assistant intent handler
-  // // uncomment `intentMap.set('your intent name here', googleAssistantHandler);`
-  // // below to get this function to be run when a Dialogflow intent is matched
-  // function googleAssistantHandler(agent) {
-  //   let conv = agent.conv(); // Get Actions on Google library conv instance
-  //   conv.ask('Hello from the Actions on Google client library!') // Use Actions on Google library
-  //   agent.add(conv); // Add Actions on Google library responses to your agent's response
-  // }
-  // // See https://github.com/dialogflow/fulfillment-actions-library-nodejs
-  // // for a complete Dialogflow fulfillment library Actions on Google client library v2 integration sample
+  
+  function adviceseeker(agent) {
+    
+    //agent.add('heya');
+    agent.add("Web links for "+agent.parameters.datascience[0]);
+    console.log(agent.parameters);
+    const value = agent.parameters.datascience[0].toLowerCase();
+    console.log(typeof value);
+    const courseRef = db.collection('College').doc('datascience');
+    return courseRef.get().then(function(doc){
+      if(doc.exists){
+        
+        console.log("===========Inside doc===========");
+        console.log(doc.data());
+        const docdata = doc.data();
+        const courses=docdata.Data_Science;
+        console.log(courses[value]);
+        
+        return agent.add(courses[value]);
+      }
+      else{
+        console.log("No such document");
+        return agent.add("error");
+      }
+    }).catch(function(error){
+      console.log("error getting document",error);
+    });
+    
+  }
 
   // Run the proper function handler based on the matched Dialogflow intent name
   let intentMap = new Map();
   intentMap.set('Default Welcome Intent', welcome);
   intentMap.set('Default Fallback Intent', fallback);
   intentMap.set('Menu', menuteller);
-  // intentMap.set('your intent name here', googleAssistantHandler);
+  intentMap.set('Careeradvice', adviceseeker);
   agent.handleRequest(intentMap);
 });
